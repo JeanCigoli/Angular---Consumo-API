@@ -1,0 +1,23 @@
+<div class="container mx-auto" style="width: 800px;" bg-primary>
+    <input class="form-control" style="width: 500px; float: left;" type="text" #buscarStar placeholder="Pesquise Aqui!">
+    <button class="btn btn-success ml-2" style="float: left;" (click)="getStar(buscarStar.value)">Pronto!</button>
+    <hr>
+</div>
+
+<div class="slidershow">
+  <div class="container">
+    <div class="conteiner-heroi">
+
+      <div *ngFor="let star of groupStar">
+        <div class="card center mt-2" style="width: 18rem;">
+          <img src="https://starwars-visualguide.com/assets/img/characters/{{star.url}}.jpg" class="card-img-top">
+          <h5 class="card-title mt-3">{{star.nome}}</h5>
+          <p class="card-text"></p>
+          <p class="card-text">Gênero: {{star.genero}}</p>
+          <p class="card-text">Cor de Cabelo: {{star.corCabelo}}</p>
+          <p class="card-text">Cor dos Olhos: {{star.corOlho}}</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div> 
