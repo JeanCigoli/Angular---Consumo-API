@@ -5,7 +5,7 @@
 Este trabalho foi um desafio proposto pelo professor de Algoritmo do Senai a onde estudo, para aprender a utilizar frameworks de Javascript para facilitar o desenvolvimento.
 O desafio era trazer as informações da API escolhida (Star Wars) e montar cards com elas.
 
-![](/git/Angular.gif)
+![](/gif/Angular.gif)
 
 ## Sites Utilizados:
 
@@ -40,9 +40,9 @@ O angular trabalha com **Type Script**, além das linguagens de marcação e est
 
 Já a framework Angular ao qual ajuda muito na interação do DOM com o "back-end", facilitando a montagem da página em si, com o retorno da API.
 
-![](/git/angular2.gif)
+![](/gif/angular2.gif)
 
-E para estilização foi utilizado **Bootstrap**, uma das ferramentas mais utilizada pasa CSS.
+E para estilização foi utilizado **Bootstrap**, uma das ferramentas mais utilizada para CSS.
 
 #
 
